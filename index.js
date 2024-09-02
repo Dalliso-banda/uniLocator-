@@ -1,6 +1,4 @@
-/*written by frendolsk.com. api by http://universities.hipolabs.com.*/
-
-/*i suck at variable naming*/
+/*written by frendolsk.com. api by http://universities.hipolabs.com.*/*i suck at variable naming*/
 /*0976557875 whatsapp*/
 const form= document.querySelector('form');
 form.onsubmit=(event)=>{
@@ -32,7 +30,7 @@ fetch(API)
        return uni;
    })
    
-   console.log(results)
+   alert('database imported');
     search.oninput=(event)=>{
       const value=event.target.value;
       display.innerHTML="";
