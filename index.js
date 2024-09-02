@@ -51,6 +51,6 @@ fetch(API)
       
       })
     }
-}).catch(error=>console.log(error))
+}).catch(error=>alert(error))
 }
 /*functional programming*/
