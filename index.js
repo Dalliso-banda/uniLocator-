@@ -5,6 +5,7 @@
 const form= document.querySelector('form');
 form.onsubmit=(event)=>{
    event.preventDefault();
+   alert(form);
 }
 alert('some countries are not in the database')
 let country;
