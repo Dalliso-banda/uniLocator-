@@ -30,7 +30,7 @@ fetch(API)
        return uni;
    })
    
-   alert('database imported');
+   alert(`${country} database imported`);
     search.oninput=(event)=>{
       const value=event.target.value;
       display.innerHTML="";
