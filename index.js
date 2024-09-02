@@ -21,7 +21,7 @@ countrySelector.onchange=(event)=>{
 }
 
   
-
+alert(country)
    function getUnis(country){
 let API = `http://universities.hipolabs.com/search?country=${country}`;
 fetch(API)
@@ -30,7 +30,7 @@ fetch(API)
        return uni;
    })
    
-   alert(`${country} database imported`);
+   
     search.oninput=(event)=>{
       const value=event.target.value;
       display.innerHTML="";
