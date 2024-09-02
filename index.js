@@ -2,6 +2,10 @@
 
 /*i suck at variable naming*/
 /*0976557875 whatsapp*/
+const form= document.querySelector('form');
+form.onsubmit=(event)=>{
+   event.preventDefault();
+}
 alert('some countries are not in the database')
 let country;
 const countrySelector= document.getElementById('country');
