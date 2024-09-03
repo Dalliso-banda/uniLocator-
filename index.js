@@ -21,7 +21,7 @@ countrySelector.onchange=(event)=>{
   
 
    function getUnis(country){
-let API = `http://universities.hipolabs.com/search?country=${country}`;
+let API = `https://universities.hipolabs.com/search?country=${country}`;
 fetch(API)
 .then(res=>res.json()).then(data=>{
    let results= data.map((uni)=>{
